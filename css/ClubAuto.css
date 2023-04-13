@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@300&display=swap');
+
+:root {
+    --black: #232628;
+    --yellow: #FAB637;
+    --red: #FF4848;
+    --orange: #CC6119;
+    --tGray: rgba(242, 242, 242, 0.8);
+    --gray: #ECEFF3;
+    --white: #FFFFFF;
+    --blue: #6C98E1;
+    box-sizing: border-box;
+}
+*{
+    box-sizing: inherit;
+}
+body {
+    font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 1rem;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Open-Sans, Verdana, Geneva, Tahoma, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+.bold {
+    font-weight: 700;
+}
+#pageContent img, #pageContentDetails img, #pageContentVL img {
+    max-width: 100%;
+    height: auto;
+}
+.accessibility {
+    position: absolute;
+    left: -15000px;
+}
+#mainHeader, #mainFooter, #mainHeaderContact {
+    background-color: var(--black);
+}/*<---------------------------------------------------------------------Ici commence le #mainHeader*/
