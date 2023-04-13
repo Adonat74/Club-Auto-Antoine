@@ -379,6 +379,131 @@ a:visited {
 #text7 p {
     font-weight: bold;
 }
+/*<---------------------------------------------------Ici commence le #pageContentVL*/
+#titleVL {
+    background-image: url(/images/vente-location.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-color: grey;
+    background-blend-mode: multiply;
+ }    
+ #titleVL h1 {
+    font-size: 3.2em;
+    color: white;
+    margin: 0 0 0 10%;
+    padding: 120px 0 100px;
+ }
+#flexVL {
+    display: flex;
+    flex-direction: column-reverse;
+}
+#rightCol {
+    display: grid;
+    gap: 30px;
+    margin: 0 30px;
+    box-shadow: 0px 0px 20px 0px #bfbfbf;
+    position: relative;
+    top: -40px;
+}
+#headerRightCol {
+    display: flex;
+    background-color: var(--black);
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 30px;
+    height: 200px;
+    color: white;
+    font-size: 1.8em;
+}
+#rightColFilter {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 20px;
+    padding: 0 8% 40px;
+}
+.dropDown {
+    border: none;
+    background-color:#edecf0;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+#rightCol h5 {
+    font-size: 1.8em;
+    margin: 10px 0;
+}
+#rightColFilter button {
+    color: #FFFFFF;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    background-color: #6C98E1;
+    height: 60px;
+    width: 100%;
+    box-shadow: 0px 3px #5276af;
+}
+#leftCol {
+    display: grid;
+    gap: 50px;
+    margin: 0 30px;
+}
+#leftCol label {
+    display: none;
+}
+#ordre {
+    border: none;
+    background-color: #edecf0;
+    padding: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.imageVehicule {
+    position: relative;
+}
+.prixOrdi {
+    color: #FFFFFF;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: #6C98E1;
+    border: none;
+    padding: 16px 0 0 60px;
+    margin-left: 5%;
+    width: 150px;
+    height: 60px;
+    position: absolute;
+    right: 0;
+    bottom: -19px;
+}
+.prixMobile {
+    color: #FFFFFF;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: #6C98E1;
+    border: none;
+    padding: 16px 0 0 35px;
+    margin-left: 5%;
+    width: 150px;
+    height: 60px;
+    position: absolute;
+    right: 0;
+    bottom: -19px;
+}
+.listVehicule {
+    margin: 0;
+    padding: 50px 0 0;
+    border-top: 1px solid rgb(183, 183, 183);
+}
+#listVehicule {
+    border-bottom: 1px solid rgb(183, 183, 183);
+    padding-bottom: 40px;
+    margin-bottom: 80px;
+}
+.listVehicule p {
+    font-weight: bold;
+}
 /*<---------------------------------------------------------------------Ici commence le #mainFooter*/
 #mainFooter {
     width: 100%;
