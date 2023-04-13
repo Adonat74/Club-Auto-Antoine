@@ -617,3 +617,267 @@ a:visited {
     margin: 0 5%;
     border-top: 1px solid gray;
 }
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+    #menuToggle {
+        display: none;
+    }
+    #mainHeaderContact #h1Contact {
+        font-size: 1.4em;
+        min-width: 220px;
+    }
+    #mainHeader {
+        justify-content: space-around;
+    }
+    #mainHeaderContact {
+        height: 100px;
+        width: 100%;
+        top: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .mainHeader {
+        display: block;
+    }
+    #telephone {
+        position: static;
+    }
+    #mainNav {
+        display: block !important;
+    }
+    #mainNav ul {
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    #imageBack {
+        display: block;
+    }
+    #text1 > h2 {
+        font-size: 2em;
+        padding: 0.8em 0em 0.8em 4em;
+    }
+    #container3Flex {
+        flex-direction: row;
+    }
+    #text4 {
+        background-color: hsla(39, 95%, 60%, 0.82);
+        margin:10% 1% 10% 10%;
+    }
+    #text5 {
+        background-color: hsla(0, 100%, 64%, 0.82);
+        margin:10% 10% 10% 1%;
+    }
+    .textBlock {
+        padding: 5%;
+    }
+    #text7Container {
+        padding: 10%;
+    }
+    #text7 {
+        max-width: 600px;
+    }
+    #detailsFlex {
+        margin: 50px 20% 50px 10%;
+    }
+    #titleVL h1 {
+        padding: 50px 0 100px;
+     }
+} 
+    
+@media screen and (min-width: 1024px) {
+    #mainHeader h1, #mainHeaderContact h1 {
+        font-size: 2.2rem;
+        margin-top: 25px;
+        min-width: 200px;
+    }
+    #container2 {
+        font-size: 1em;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin: 40px 10% 60px;
+    }
+    #text2, #image2, #text3, #image3 {
+        max-width: 47%;
+    }
+    #text2, #text3 {
+        margin-top: 0;
+    }
+    #image2, #image3 {
+        margin-top: 30px;
+    }
+    #image4 {
+        width: 100%;
+    }
+    #cardContainerAcceuil {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 25px;
+    }
+    #cardAcceuil2, #cardAcceuil3 {
+        display: block;
+    }
+    .cardFlexContainer {
+        background-color: #3a3d41;
+        padding: 10px 20px 30px;
+        margin-top: 8px;
+    }
+    .cardFlex {
+        background-color: transparent;
+        flex-direction: row;
+        align-items: center;
+        padding: 0 0 5% 0;
+        margin: 0;
+        border-bottom: 1px solid #989898;
+    }
+    .hrefButton {
+        width: 150px;
+    }
+    .priceButtonAcceuil {
+        font-size: 1.2em;
+        padding: 15px 15px 15px 5px;
+        width: 100%;
+        margin-left: 0;
+    }
+    #priceButtonAcceuil {
+        padding: 5px 15px 10px 5px;
+    }
+    #cardAcceuil3 .priceButtonAcceuil::first-line {
+        text-decoration-line: line-through;
+        color: black;
+    }
+    .titleAcceuil {
+        padding-bottom: 1.2em;
+        border-bottom: none;
+        margin-bottom: 0;
+        padding-right: 10px;
+        font-size: 0.9em;
+    }
+    #container5Grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: 0 5%;
+        gap: 30px;
+    }
+    #formContact {
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
+    #containerContact {
+        padding: 5% 0;
+        margin-bottom: 150px;
+    }
+    #secondNav {
+        flex-direction: row;
+    }
+    #flexVL {
+        flex-direction: row;
+    }
+    #leftCol {
+        gap: 30px;
+    }
+    #leftCol label {
+        display: block;
+    }
+    #leftCol nav {
+        display: flex;
+        align-items: center;
+        margin-top: 40px;
+        gap: 10px;
+    }
+    .listVehicule {
+        display: grid;
+        grid-template-columns: 300px 1fr;
+        gap: 40px;
+        padding-top: 30px;
+        position: relative;
+    }
+    .imageVehicule {
+        min-width: 150px;
+    }
+    .imageVehicule p {
+        display: none;
+    }
+    .resumeVehicule {
+        display: flex;
+        justify-content: space-between;
+    }
+    .resumeVehiculeP {
+        margin-top: 0;
+    }
+    .prixVL {
+        color: #FFFFFF;
+        font-size: 1.5em;
+        font-weight: bold;
+        background-color: #6C98E1;
+        border: none;
+        padding: 16px 10px 0 60px;
+        margin-left: 5%;
+        width: 150px;
+        height: 60px;
+    }
+    .prixL {
+        color: #FFFFFF;
+        font-size: 1.5em;
+        font-weight: bold;
+        background-color: #6C98E1;
+        border: none;
+        padding: 16px 10px 0 30px;
+        margin-left: 5%;
+        width: 150px;
+        height: 60px;
+    }
+    #headerRightCol {
+        height: 100px;
+        font-size: 1.5em;
+    }
+    #headerRightCol img {
+        width: 50px
+    }
+    #rightCol {
+        height: 100%;
+    }
+    #footerFlex {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+        margin: 0 5% 0;
+    }
+    #emailFooter {
+        width: 250px;
+    }
+    #logoFlex {
+        margin-right: 5vw;
+    }
+    #clubAuto {
+        max-width: 20vw;
+    }
+    .imgFooter {
+        min-width: 45px;
+        min-height: 45px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #container2 {
+        font-size: 1.2em;
+    }
+    #cardContainerAcceuil {
+        margin: 4% 8%;
+    }
+    #mainHeaderContact #h1Contact {
+        font-size: 2.2em;
+    }
+    #containerContact {
+        margin-bottom: 200px;
+    }
+    #flexVL {
+        margin: 0 10%;
+    }
+}
