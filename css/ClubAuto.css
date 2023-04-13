@@ -149,6 +149,180 @@ a:visited {
     color: #FFFFFF;
     background-color: #CC6119;
 }/*<-----------------------------------Ici se termine le #mainHeader et commence le #pageContentContact*/
+/*<------------------------------------------Ici commance le #pageContentIndex*/
+#imageBack {
+    background-image: url(/images/vehicule1.jpg);
+    background-size: 100%;
+    background-position: center;
+    height: 550px;
+    background-repeat: no-repeat;
+    display: none;
+}
+#image1 {
+    display: block;
+    width: 100%;
+}
+#text1 > h2 {
+    color: #FFFFFF;
+    font-size: 3.2rem;
+    font-weight: 700;
+    background-color: #232628;
+    padding: 2em 0em 1em 0.5em;
+    margin: 0;
+}
+#container2 {
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px 10%;
+}
+#h2Text3 {
+    padding-bottom: 1em;
+    border-bottom: 1.5px solid rgb(212, 212, 212);
+}
+
+#text2, #text3, #image3 {
+    margin-top: 40px;
+}
+#ulCheck {
+    list-style-image: url(/logo-réseaux-sociaux/check-solid.svg);
+    padding: 13px;
+    line-height: 2em;
+}
+#ulCheck li{
+    padding-left: 10px;
+}
+#container3 {
+    background-image: url(/images/vente-location.jpg);
+    background-size: cover;
+}
+#container3 p {
+    color: #FFFFFF;
+}
+#container3 h2 {
+    font-size: 2em;
+}
+#container3Flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#text4 {
+    background-color: hsla(39, 95%, 60%, 0.82);
+    margin: 7% 0 2%;
+}
+#text5 {
+    background-color: hsla(0, 100%, 64%, 0.82);
+    margin: 5% 0 10%;
+}
+.textBlock {
+    padding: 15% 30% 15% 20%;
+}
+#container4 {
+    background-color: #232628;
+    color: #FFFFFF;
+    padding-bottom: 4%;
+}
+#container4 > h2 {
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    margin: 0;
+    padding: 50px 10% 0;
+}
+#cardContainerAcceuil {
+    display: grid;
+    margin: 4%;
+    padding-top: 40px;
+    border-top: 3px solid var(--orange);
+}
+.cardFlex {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 15px 0 5%;
+    background-color: #3a3d41;
+    padding: 5% 5% 3%;
+}
+.priceButtonAcceuil {
+    color: #FFFFFF;
+    font-size: 1.5em;
+    font-weight: 700;
+    background-color: #6C98E1;
+    border: none;
+    padding: 15px 20px 15px 10px;
+    margin-left: 5%;
+}
+.titleAcceuil {
+    padding-bottom: 1.2em;
+    border-bottom: 1px solid #989898;
+}
+#cardAcceuil2, #cardAcceuil3 {
+    display: none;
+}
+
+#container5 > h2 {
+    font-weight: bold;
+    font-size: 2.5em;
+    text-align: center;
+    margin: 70px 0 100px;
+}
+#container5Grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+    margin: 0 10%;
+}
+.pourquoiChoisir {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+.container5Image {
+    padding-top: 20px;
+    width: 70px;
+    height: 70px;
+}
+.container5Text {
+    margin: 0 5%;
+}
+.container5Text h4 {
+    font-size: 1.2em;
+}
+.container5Text p {
+    font-weight: bold;
+    color: #989898;
+}
+#hrefButtonContact {
+    display: block;
+    text-align: center;
+    margin: 60px 0 60px;
+}
+#buttonContact {
+    color: #FFFFFF;
+    font-weight: bold;
+    background-color: #6C98E1;
+    border: none;
+    border-radius: 3px;
+    padding: 15px 25px;
+}
+#container6 {
+    background-image: url(/images/vehicule3.jpg);
+    background-size: cover;
+}
+#text7Container {
+    padding: 10% 0;
+}
+#text7 {
+    background-color: hsla(39, 95%, 60%, 0.82);
+    padding: 50px 50px;
+}
+#text7 h4 {
+    font-size: 2em;
+}
+#text7 p {
+    font-weight: bold;
+}
 /*<---------------------------------------------------------------------Ici commence le #mainFooter*/
 #mainFooter {
     width: 100%;
