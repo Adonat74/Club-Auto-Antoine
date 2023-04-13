@@ -43,3 +43,109 @@ a:visited {
 #mainHeader, #mainFooter, #mainHeaderContact {
     background-color: var(--black);
 }/*<---------------------------------------------------------------------Ici commence le #mainHeader*/
+#mainHeaderContact #h1Contact {
+    display: block;
+    font-size: 2.5em;
+}
+#mainHeaderContact {
+    height: 180px;
+    width: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+#mainHeader {
+    height: 100px;
+    width: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#mainHeaderContact #telephone {
+    left: 10px;
+    top: 100px;
+}
+#telephone, #adresse{
+    display: flex;
+    align-items: center;
+}
+#telephone {
+    position: absolute;
+    top: 90px;
+    left: 28px;
+}
+.alignLeft {
+    margin: 0;
+}
+#logoHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#facebook {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px 0 0;
+}
+#twitter {
+    width: 40px;
+    height: 40px;
+    margin:0 0 0 10px;
+}
+#imgAdresse, #imgTelephone {
+    width: 40px;
+    height: 40px;
+}
+#mainHeader h1, #mainHeaderContact h1 {
+    color: #FFFFFF;
+    font-size: 1.4rem;
+    min-width: 200px;
+    padding-left: 10px;
+}
+#mainHeader h2, #mainHeaderContact h2 {
+    color: #CC6119;
+    font-size: 0.8em;
+    margin: 5px;
+}
+.mainHeader {
+    display: none;
+}
+#menuToggle {
+    background-color: transparent;
+    border: none;
+}
+#imgHamburger {
+    width: 80px;
+    height: 70px;
+}
+#mainNav {
+    width: 100%;
+    top: 0px;
+    background-color: var(--tGray);
+    display: none;
+}
+#mainNav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding-right: 10%;
+    margin: 0;
+}
+.hoverMenu {
+    background-color: #CC6119;
+}
+#mainNav a {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #232628;
+    display: block;
+    padding: 20px 2vw;
+}
+#mainNav a:hover {
+    color: #FFFFFF;
+    background-color: #CC6119;
+}/*<-----------------------------------Ici se termine le #mainHeader et commence le #pageContentContact*/
