@@ -504,6 +504,69 @@ a:visited {
 .listVehicule p {
     font-weight: bold;
 }
+/*<---------------------------------------------------Ici commence le pageContentDetails*/
+#path {
+    color: #b9b9b9;
+    padding: 15px 0;
+    margin: 0 10%;
+    border-bottom: 1px solid #cacaca;
+}
+#detailsFlex {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 8% 50px 8%;
+}
+#titleDetails h2 {
+    font-size: 2.5em;
+}
+#secondNav {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--black);
+    text-align: center;
+    margin: 50px 0;
+    padding: 0 6px;
+}
+#secondNav p {
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0;
+    padding: 1em;
+}
+#secondNavSelected {
+    background-color: white;
+    border-top: 6px solid #CC6119;
+}
+#secondNavSelected p {
+    color: black;
+}
+#secondNav a:hover {
+    background-color: white;
+    border-top: 6px solid #CC6119;
+}
+#secondNav p:hover {
+    color: black;
+}
+#textDetails {
+    line-height: 1.5em;
+}
+#textBorderDetails {
+    border-left: 6px solid #CC6119;
+    margin: 25px 0;
+    padding-left: 40px;
+}
+#listTextDetails {
+    list-style-image: url(/logo-réseaux-sociaux/check-solid-inverse.svg);
+}
+#listTextDetails li {
+    margin: 15px 0;
+    padding-left: 30px;
+}
+#listTextDetails ul {
+    padding: 0;
+    margin: 40px 0 0 20px;
+}
 /*<---------------------------------------------------------------------Ici commence le #mainFooter*/
 #mainFooter {
     width: 100%;
