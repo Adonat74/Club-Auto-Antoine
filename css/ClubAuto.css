@@ -149,6 +149,62 @@ a:visited {
     color: #FFFFFF;
     background-color: #CC6119;
 }/*<-----------------------------------Ici se termine le #mainHeader et commence le #pageContentContact*/
+#containerContact {
+    padding: 10% 0;
+    margin-bottom: 500px;
+    height: 400px;
+}
+#pageContentContact {
+    background-image: url(/images/vehicule3.jpg);
+    background-size: cover;
+}
+#contactForm {
+    background-color: white;
+    margin: 0 10%;
+    padding: 2% 5%;
+    box-shadow: 0px 0px 20px 0px #737373;
+}
+#formContact {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+#formContact > div > div {
+    margin: 20px 0;
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
+#formContact label {
+    margin-bottom: 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+#formContact input {
+    height: 40px;
+    border: none;
+    background-color: #e8eaf1;
+    font-weight: bold;
+    padding-left: 20px;
+}
+#formContact textarea {
+    border: none;
+    height: 150px;
+    font-weight: bold;
+    padding: 10px 0 0 20px;
+    background-color: #e8eaf1;
+    resize: none;
+}
+#formContact button {
+    color: #FFFFFF;
+    font-size: 0.8em;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    background-color: #6C98E1;
+    height: 50px;
+    width: 150px;
+    box-shadow: 0px 3px #5276af;
+}
 /*<------------------------------------------Ici commance le #pageContentIndex*/
 #imageBack {
     background-image: url(/images/vehicule1.jpg);
