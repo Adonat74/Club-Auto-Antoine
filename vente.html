@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Club auto, le site pour acheter ou louer un large choix de voitures de toute marques">
+        <title>Club Auto - Vente</title>
+        <link rel="stylesheet" href="/css/normalize.css">
+        <link rel="stylesheet" href="/css/clubAuto.css">
+        <script src="/js/jquery-3.4.1.min.js"></script>
+        <script src="/js/menu.js"></script>
+    </head>
+    <body>
+        <header id="mainHeaderContact">
+            <h1 id="h1Contact" class="mainHeader">CLUB AUTO</h1>
+            <div id="adresse">
+                <figure class="alignLeft">
+                    <img id="imgAdresse" class="mainHeader" src="/images/icone-adresse.png" alt="iconeadresse">
+                </figure>
+                <h2 class="mainHeader">ADRESSE :<br>
+                <font color="#FFFFFF">AVENUE CHARLES DE GAULLE<br>
+                75000 PARIS</font></h2><!--CSS inline pour les éléments du header-->
+            </div>
+            <div id="telephone">
+                <figure class="alignLeft">
+                    <img id="imgTelephone" src="/images/icon-telephone.png" alt="iconeadresse">
+                </figure>             
+                <h2>TÉLÉPHONE :<br> 
+                <font color="#FFFFFF" size="5rem">01 23 45 67 89</font></h2>               
+            </div>
+            <div>
+                <h2 class="mainHeader">OUVERTURE : <font color="#FFFFFF">Du Lundi au Samedi</font></h2>
+                <h2 class="mainHeader">HORAIRES : <font color="#FFFFFF">De 9h à 17h</font></h2>
+            </div>
+            <div id="logoHeader">
+                <img id="facebook" class="mainHeader" src="/logo-réseaux-sociaux/facebook-logo.svg" alt="logofacebook">
+                <img id="twitter" class="mainHeader" src="/logo-réseaux-sociaux/twitter-logo.svg" alt="logotwitter">
+            </div>
+            <button id="menuToggle"><img id="imgHamburger" src="/logo-réseaux-sociaux/hamburger.svg" alt="Ouvrir / Fermer le menu"></button>
+        </header><!--Ici se termine le #main header-->
+        <section id="pageContentVL" class=".pageContentVL">
+            <div id="titleVL">
+                <nav id="mainNav">
+                    <h1 class="accessibility">Menu principal</h1>
+                    <p class="accessibility"><a href="#flexVL" title="Accéder directement au contenu principal de cette page">Passer le menu</a></p>
+                    <ul>
+                        <li><a href="index.html" title="Vers la page d'accueil de ce site">ACCUEIL</a></li>
+                        <li class="hoverMenu"><a href="vente.html" title="Vers la liste des véhicules en vente sur ce site"><font color="#FFFFFF">VENTE</font></a></li>
+                        <li><a href="location.html" title="Vers la liste des véhicules en location sur ce site">LOCATION</a></li>
+                        <li><a href="contact.html" title="Vers la page de contact de ce site">CONTACT</a></li>
+                    </ul>
+                </nav>
+                <h1>VENTE</h1>
+            </div>
+            <div id="flexVL">
+                <div id="leftCol">
+                    <nav>
+                        <label for="ordre">ORDRE:</label>
+                        <select id="ordre">
+                            <option>Prix : Croissant</option>
+                            <option>Prix : Décroissant</option>
+                            <option>Marque : A-Z</option>
+                            <option>Marque : A-Z</option>
+                        </select>
+                    </nav>
+                    <div class="listVehicule">
+                        <div class="imageVehicule">
+                            <img src="/images/vehicule2.jpg" alt="Véhicule"> 
+                            <p class="prixOrdi">5000&euro;</p>
+                        </div>
+                        <div>
+                            <div class="resumeVehicule">
+                                <h3>BMW 535I, NAVI, LEATHER, ABS</h3>
+                                <p class="prixVL">5000&euro;</p>   
+                            </div>
+                            <div>
+                                <p class="resumeVehiculeP">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias corporis voluptatem delectus error adipisci. Enim delectus odit debitis! Laudantium illum necessitatibus dolorem illo libero sed debitis iste esse vel ad.</p>
+                                <p><a href="vehicule-details.html">>>En savoir plus&#60;&#60;</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="listVehicule">
+                        <div class="imageVehicule">
+                            <img src="/images/vehicule2.jpg" alt="Véhicule"> 
+                            <p class="prixOrdi">5000&euro;</p>
+                        </div>
+                        <div>
+                            <div class="resumeVehicule">
+                                <h3>BMW 535I, NAVI, LEATHER, ABS</h3>
+                                <p class="prixVL">5000&euro;</p>   
+                            </div>
+                            <div>
+                                <p class="resumeVehiculeP">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias corporis voluptatem delectus error adipisci. Enim delectus odit debitis! Laudantium illum necessitatibus dolorem illo libero sed debitis iste esse vel ad.</p>
+                                <p><a href="vehicule-details.html">>>En savoir plus&#60;&#60;</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="listVehicule">
+                        <div class="imageVehicule">
+                            <img src="/images/vehicule2.jpg" alt="Véhicule"> 
+                            <p class="prixOrdi">5000&euro;</p>
+                        </div>
+                        <div>
+                            <div class="resumeVehicule">
+                                <h3>BMW 535I, NAVI, LEATHER, ABS</h3>
+                                <p class="prixVL">5000&euro;</p>   
+                            </div>
+                            <div>
+                                <p class="resumeVehiculeP">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias corporis voluptatem delectus error adipisci. Enim delectus odit debitis! Laudantium illum necessitatibus dolorem illo libero sed debitis iste esse vel ad.</p>
+                                <p><a href="vehicule-details.html">>>En savoir plus&#60;&#60;</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="listVehicule" class="listVehicule">
+                        <div class="imageVehicule">
+                            <img src="/images/vehicule2.jpg" alt="Véhicule"> 
+                            <p class="prixOrdi">5000&euro;</p>
+                        </div>
+                        <div>
+                            <div class="resumeVehicule">
+                                <h3>BMW 535I, NAVI, LEATHER, ABS</h3>
+                                <p class="prixVL">5000&euro;</p>   
+                            </div>
+                            <div>
+                                <p class="resumeVehiculeP">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias corporis voluptatem delectus error adipisci. Enim delectus odit debitis! Laudantium illum necessitatibus dolorem illo libero sed debitis iste esse vel ad.</p>
+                                <p><a href="vehicule-details.html">>>En savoir plus&#60;&#60;</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--Ici se termine le #leftCol-->
+                <aside id="rightCol">
+                    <div id="headerRightCol">
+                        <img src="/images/icone-voiture.png" alt="Rechercher">
+                        <h4>Rechercher</h4>
+                    </div>
+                    <div id="rightColFilter">
+                        <select id="type" class="dropDown">
+                            <option>Type</option>
+                            <option>Type</option>
+                            <option>Type</option>
+                        </select>
+                        <select id="carburant" class="dropDown">
+                            <option>Carburant</option>
+                            <option>Carburant</option>
+                            <option>Carburant</option>
+                            <option>Carburant</option>
+                        </select>
+                        <select id="marque" class="dropDown">
+                            <option>Marque</option>
+                            <option>Marque1</option>
+                            <option>Marque2</option>
+                            <option>Marque3</option>
+                        </select>
+                        <select id="modele" class="dropDown">
+                            <option>Modèle</option>
+                            <option>Modèle1</option>
+                            <option>Modèle2</option>
+                            <option>Modèle3</option>
+                        </select>
+                        <select id="kilometrage" class="dropDown">
+                            <option>Kilométrage maximal</option>
+                            <option>Kilométrage maximal1</option>
+                            <option>Kilométrage maximal2</option>
+                            <option>Kilométrage maximal3</option>
+                        </select>
+                        <select id="anciennete" class="dropDown">
+                            <option>Ancienneté</option>
+                            <option>Ancienneté</option>
+                            <option>Ancienneté</option>
+                            <option>Ancienneté</option>
+                        </select>
+                        <h5>Prix</h5>
+                        <div class="range">
+                            <div class="range-slider">
+                                <span class="range-selected"></span>
+                            </div>
+                            <div class="range-input">
+                                <input type="range" class="min" min="2000" max="80000" value="2000" step="100">
+                                <input type="range" class="max" min="2000" max="80000" value="80000" step="100">
+                            </div>
+                            <div class="range-price">      
+                                <input type="number" name="min" value="2000">      
+                                <input type="number" name="max" value="80000">      
+                            </div>
+                        </div>
+                        <button type="button">RÉINITIALISER</button> 
+                    </div> 
+                    <script src="script.js"></script>
+                                     
+                </aside>
+            </div>              
+        </section><!--Ici se termine le #pagecontent-->  
+        <footer id="mainFooter">
+            <div id="footerFlex">
+            <div id="clubAuto" class="footer">
+                <h1><font color="#6C98E1">CLUB</font> AUTO</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.Vel quos deserunt sit laudantium neque ipsam minima facere.</p>
+            </div>
+            <div id="horaires" class="footer">
+                <h2>HORAIRES D'OUVERTURE</h2>
+                <p>Lundi - Samedi : <font color="#FFFFFF">09:00 - 17:00</font><br>
+                   Dimanche et jours fériés: <font color="#FFFFFF">Fermé</font></p>
+            </div>
+            <div id="newsletter" class="footer">
+                <form action="mercinewsletter.html" method="get">
+                    <h2>NEWSLETTER</h2>
+                    <div id="newsletterFlex">
+                        <input type="email" name="email" id="emailFooter" placeholder="Entrez votre e-mail" required>
+                        <input id="submitFooter" type="image" src="/logo-réseaux-sociaux/boutton-submit-footer.svg"   alt="Envoyer">
+                    </div>
+                    <p>Inscrivez-vous pour recevoir les<br>
+                    dernières offres</p>
+                </form>
+            </div>
+            <div id="reseaux" class="footer">
+                <h2> RESEAUX SOCIAUX</h2>
+                <div id="logoFlex">
+                    <img class="imgFooter" src="/logo-réseaux-sociaux/facebook-logo-carré.svg" alt="logofacebook">
+                    <img class="imgFooter" src="/logo-réseaux-sociaux/twitter-logo-carré.svg" alt="logotwitter">
+                    <img class="imgFooter" src="/logo-réseaux-sociaux/instagram.svg" alt="logoinstagram">
+                    <img class="imgFooter" src="/logo-réseaux-sociaux/google-plus-g.svg" alt="logogoogleplus">
+                    <img class="imgFooter" src="/logo-réseaux-sociaux/youtube.svg" alt="logoyoutube">
+                </div>
+            </div>
+            </div>
+            <p id="copy">Copyright &copy; Club Auto - Tous droits réservés</p>
+        </footer><!--Ici se termine le #mainfooter-->
+    </body>
+</html>  
