@@ -1,0 +1,8 @@
+{
+  
+  "liveServer.settings.mime": {
+    "*.css": "text/css",
+    "*.js": "application/javascript"
+  },
+  "liveServer.settings.port": 5501
+}
